@@ -1,0 +1,23 @@
+
+class TOUser{
+  String name;
+}
+
+class TOPlayer{
+  String user;
+  Time remainingTime;
+  int remainingWalls;
+  int row;
+  int col;
+}
+
+
+class TOWall {
+
+  enum Direction{Vertical, Horizontal};
+  Direction direction;
+  int id;
+  String user;
+  int row;
+  int col;
+}
